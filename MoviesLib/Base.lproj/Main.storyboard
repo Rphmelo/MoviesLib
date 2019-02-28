@@ -360,18 +360,40 @@
         <!--Theaters-->
         <scene sceneID="Uih-Hn-GcP">
             <objects>
-                <viewController id="XC7-e7-OcX" sceneMemberID="viewController">
+                <viewController id="XC7-e7-OcX" customClass="MapViewController" customModule="MoviesLib" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ijR-Kw-vk1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fzf-IU-int">
+                                <rect key="frame" x="0.0" y="100" width="414" height="713"/>
+                            </mapView>
+                            <searchBar contentMode="redraw" placeholder="Entre com o ponto de interesse" translatesAutoresizingMaskIntoConstraints="NO" id="DwL-A7-KKM">
+                                <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fzf-IU-int" firstAttribute="top" secondItem="DwL-A7-KKM" secondAttribute="bottom" id="47U-rX-7IX"/>
+                            <constraint firstItem="fzf-IU-int" firstAttribute="bottom" secondItem="sD6-1K-pIf" secondAttribute="bottom" id="5t7-5o-T6i"/>
+                            <constraint firstItem="DwL-A7-KKM" firstAttribute="top" secondItem="sD6-1K-pIf" secondAttribute="top" id="Hsg-UO-Wf9"/>
+                            <constraint firstItem="fzf-IU-int" firstAttribute="leading" secondItem="sD6-1K-pIf" secondAttribute="leading" id="Vdt-E5-oKj"/>
+                            <constraint firstItem="DwL-A7-KKM" firstAttribute="leading" secondItem="sD6-1K-pIf" secondAttribute="leading" id="e4C-LA-LkX"/>
+                            <constraint firstItem="fzf-IU-int" firstAttribute="trailing" secondItem="sD6-1K-pIf" secondAttribute="trailing" id="whw-6I-xpW"/>
+                            <constraint firstItem="DwL-A7-KKM" firstAttribute="trailing" secondItem="sD6-1K-pIf" secondAttribute="trailing" id="xhi-GJ-hjv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="sD6-1K-pIf"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Theaters" selectedImage="theaters" id="fCc-uI-aUx"/>
+                    <connections>
+                        <outlet property="mapView" destination="fzf-IU-int" id="9dJ-9b-kl2"/>
+                        <outlet property="searchBar" destination="DwL-A7-KKM" id="1NO-VT-XNk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZEI-SF-COX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1133" y="954"/>
+            <point key="canvasLocation" x="1131.8840579710145" y="953.57142857142856"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="s8l-IA-Qi2">

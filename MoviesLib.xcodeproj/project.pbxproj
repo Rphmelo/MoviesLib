@@ -11,6 +11,7 @@
 		AC0403142214DB35002A24E2 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0403132214DB35002A24E2 /* Movie.swift */; };
 		AC0403162214E8C1002A24E2 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0403152214E8C1002A24E2 /* MoviesTableViewController.swift */; };
 		AC0403182214F64E002A24E2 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0403172214F64E002A24E2 /* MovieTableViewCell.swift */; };
+		AC289B762227600E0092A23E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC289B752227600E0092A23E /* API.swift */; };
 		AC76B211221B84CE00BC38AF /* MoviesLib.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC76B20F221B84CE00BC38AF /* MoviesLib.xcdatamodeld */; };
 		AC76B213221B8B6D00BC38AF /* UIViewController+CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC76B212221B8B6D00BC38AF /* UIViewController+CoreData.swift */; };
 		AC76B215221B8EAD00BC38AF /* MovieRegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC76B214221B8EAD00BC38AF /* MovieRegisterViewController.swift */; };
@@ -26,6 +27,7 @@
 		AC0403132214DB35002A24E2 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		AC0403152214E8C1002A24E2 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
 		AC0403172214F64E002A24E2 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		AC289B752227600E0092A23E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		AC76B210221B84CE00BC38AF /* MoviesLib.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoviesLib.xcdatamodel; sourceTree = "<group>"; };
 		AC76B212221B8B6D00BC38AF /* UIViewController+CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+CoreData.swift"; sourceTree = "<group>"; };
 		AC76B214221B8EAD00BC38AF /* MovieRegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRegisterViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				AC76B20F221B84CE00BC38AF /* MoviesLib.xcdatamodeld */,
 				AC0403132214DB35002A24E2 /* Movie.swift */,
 				AC84D6EC221221A800183830 /* Main.storyboard */,
+				AC289B752227600E0092A23E /* API.swift */,
 				AC76B214221B8EAD00BC38AF /* MovieRegisterViewController.swift */,
 				AC0403172214F64E002A24E2 /* MovieTableViewCell.swift */,
 				AC0403152214E8C1002A24E2 /* MoviesTableViewController.swift */,
@@ -164,6 +167,7 @@
 				AC84D6EB221221A800183830 /* MovieViewController.swift in Sources */,
 				AC76B213221B8B6D00BC38AF /* UIViewController+CoreData.swift in Sources */,
 				AC84D6E9221221A800183830 /* AppDelegate.swift in Sources */,
+				AC289B762227600E0092A23E /* API.swift in Sources */,
 				AC0403142214DB35002A24E2 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
